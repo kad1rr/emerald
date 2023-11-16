@@ -1,0 +1,15 @@
+export default [
+  'let',
+  'const',
+  'f',
+  'for',
+  'loop',
+  'if',
+  'else',
+  'class',
+  'try',
+  'error',
+  'final',
+  'export',
+  'module',
+]

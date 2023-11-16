@@ -1,0 +1,41 @@
+export enum TokenType {
+  OpenParen,
+  CloseParen,
+  OpenCurly,
+  CloseCurly,
+  OpenBracket,
+  CloseBracket,
+  Equals,
+  SafeEquals,
+  Type,
+  MaybeType,
+  Identifier,
+  NotEquals,
+  SafeNotEquals,
+  BinaryOperator,
+  Or,
+  Not,
+  And,
+  Number,
+  String,
+  Keyword,
+  ToBe,
+  Let,
+  Const,
+  F,
+  For,
+  Loop,
+  If,
+  Else,
+  Class,
+  Try,
+  Error,
+  Final,
+  Export,
+  Module,
+}
+
+export interface Token {
+  type: TokenType
+  value: string
+}
