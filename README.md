@@ -1,3 +1,2 @@
-# Coming soon...
-
-> TODO: Make README.md available
+# Emerald
+A modern, simple and fast programming language
